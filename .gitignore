@@ -2,4 +2,12 @@
 *
 
 # But not these files...
+!README.md
 !.gitignore
+!.gitconfig
+!.zshrc
+!.zprofile
+!.oh-my-zsh
+!.oh-my-zsh/*
+!.oh-my-zsh-themes
+!.oh-my-zsh-themes/*
