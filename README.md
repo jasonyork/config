@@ -1,9 +1,14 @@
 This is a repo I've set up to store my user preferences.  It uses oh-my-zsh shell and has some git settings.  
+If you already have an '~/.oh-my-zsh' directory, you may want to remove it first.
 
 To get started:
 ```
 cd ~
-git clone git@github.com:jasonyork/config.git .
+git init
+git remote add origin git@github.com:jasonyork/config.git
+git fetch
+git branch master origin/master
+git reset --hard origin/master
 ```
 
 Then to pull in oh-my-zsh:
