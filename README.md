@@ -8,7 +8,7 @@ git init
 git remote add origin git@github.com:jasonyork/config.git
 git fetch
 git branch master origin/master
-git reset --hard origin/master
+git reset --hard origin/master # This will overwrite any local files!
 ```
 
 Then to pull in oh-my-zsh:
