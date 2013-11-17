@@ -1,0 +1,15 @@
+{
+	"find_selected_text": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
+}

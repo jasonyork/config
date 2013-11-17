@@ -1,0 +1,10 @@
+{
+	"installed_packages":
+	[
+		"Git",
+		"GitGutter",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeERB"
+	]
+}

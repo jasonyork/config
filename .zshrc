@@ -42,3 +42,5 @@ export EDITOR=nano
 
 # Customize to your needs...
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
