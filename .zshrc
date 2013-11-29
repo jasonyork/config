@@ -11,6 +11,8 @@ ZSH_THEME="../../.oh-my-zsh-themes/doubleend"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias be="bundle exec"
+
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -41,6 +43,5 @@ unsetopt correct
 export EDITOR=nano
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+export PATH=$PATH:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
