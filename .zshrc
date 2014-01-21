@@ -39,6 +39,7 @@ plugins=(git rails ruby)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
+unsetopt correct_all
 
 export EDITOR=nano
 
