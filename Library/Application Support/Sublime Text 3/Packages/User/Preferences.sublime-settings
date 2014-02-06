@@ -1,4 +1,5 @@
 {
+	"copy_with_empty_selection": false,
 	"find_selected_text": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
