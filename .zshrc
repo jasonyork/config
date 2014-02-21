@@ -35,7 +35,7 @@ alias be="bundle exec"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails ruby)
+plugins=(git rails ruby rvm)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct
@@ -44,5 +44,4 @@ unsetopt correct_all
 export EDITOR=nano
 
 # Customize to your needs...
-export PATH=$PATH:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin # Add RVM to PATH for scripting

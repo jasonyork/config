@@ -20,7 +20,7 @@ function put_spacing() {
   fi
 
   local termwidth
-  (( termwidth = ${COLUMNS} - 3 - ${#$(get_short_host)} - ${#$(get_pwd)}  - ${git} ))
+  (( termwidth = ${COLUMNS} - 3 - ${#$(get_short_host)} - ${#$(get_pwd)}  - ${git} - ${#$(rvm-prompt)} ))
 
   local spacing=""
   for i in {1..$termwidth}; do
@@ -31,7 +31,7 @@ function put_spacing() {
 
 function precmd() {
 print -rP '
-$fg[cyan]%m: $fg[blue]$(get_pwd)$(put_spacing)$(git_prompt_info)'
+$fg[cyan]%m: $fg[blue]$(get_pwd)$(put_spacing)$(rvm-prompt) $(git_prompt_info)'
 }
 
 PROMPT='%{$reset_color%}$ '

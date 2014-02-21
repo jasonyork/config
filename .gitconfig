@@ -9,3 +9,6 @@
 	ui = true
 [branch]
 	autosetuprebase = always
+[core]
+	editor = nano
+
