@@ -1,4 +1,4 @@
-This is a repo I've set up to store my user preferences.  It uses oh-my-zsh shell and has some git settings.  
+This is a repo I've set up to store my user preferences.  It uses [oh-my-zsh shell](https://github.com/robbyrussell/oh-my-zsh) and has some git settings.  
 If you already have an '~/.oh-my-zsh' directory, you may want to remove it first.
 
 To get started, clone this repo then:
