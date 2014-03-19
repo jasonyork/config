@@ -44,4 +44,5 @@ unsetopt correct_all
 export EDITOR=nano
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin
+
