@@ -13,8 +13,7 @@ git reset --hard origin/master # This will overwrite any local files!
 
 Then to pull in oh-my-zsh:
 ```
-git submodule init
-git submodule update
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
 Set zsh as your default shell:
