@@ -1,6 +1,16 @@
 {
 	"copy_with_empty_selection": false,
 	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"coverage",
+		"log",
+		"cache"
+	],
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -11,6 +21,9 @@
 	[
 		"draw_active"
 	],
+	"show_full_path": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": false
 }

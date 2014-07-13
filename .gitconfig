@@ -10,5 +10,8 @@
 [branch]
 	autosetuprebase = always
 [core]
-	editor = nano
+	editor = subl -n -w
 
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

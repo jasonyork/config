@@ -41,8 +41,8 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct
 unsetopt correct_all
 
-export EDITOR=nano
+export EDITOR="subl -n"
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin
+export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
