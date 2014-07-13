@@ -44,5 +44,6 @@ unsetopt correct_all
 export EDITOR="subl -n"
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+export PATH=$PATH:/usr/local/git/bin:$HOME/.rvm/bin
 
